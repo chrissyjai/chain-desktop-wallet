@@ -8,7 +8,7 @@ import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import numeral from 'numeral';
 import Big from 'big.js';
 import { useTranslation } from 'react-i18next';
-
+import { IpcRender } from '../../service/signers/IpcRender';
 import {
   hasShownWarningOnWalletTypeState,
   sessionState,
